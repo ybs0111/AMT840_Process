@@ -1,0 +1,22 @@
+enum BOARD_INFO
+{
+	BD_NONE							= 0,
+	BD_START						,
+	BD_END							,
+	BD_READY_CHK 					,
+	BD_READY_OK						,
+	BD_TEST_START_CHK				,
+	BD_TEST_START_OK				,
+	BD_TEST_BIN_CHK					,
+	BD_SLOT_OFF						,
+	BD_SLOT_ON						,
+	BD_DATA_GOOD					= 200,
+	BD_DATA_REJECT					,
+	BD_DATA_ABORT					,
+	BD_DATA_RETEST					, //2015.0120
+	BD_CONT_TIMEOUT					,
+	BD_SEND_TIMEOUT					,
+	BD_RCV_TIMEOUT					,
+	BD_PCB_CHK_TIMEOUT				,
+	BD_DATA_ABORT_CHK				, // 20150819
+};
